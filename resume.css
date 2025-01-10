@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  background: #f1f1f1;
+  color: #0f141e;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 20px 0px 20px 0px;
+  padding: 20px 0px 20px 20px;
+  padding-top: 5px;
+}
+
+.hobbi {
+  background-color: #e4e8ff;
+}
+
+.opit {
+  background-color: #ede4ff;
+}
+
+.svayz {
+  background-color: lightyellow;
+}
+
+.container {
+  margin: auto;
+  max-width: 750px;
+}
+
+.avatar {
+  border-radius: 5%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+  margin-top: 25px;
+}
+
+.soc {
+  margin-top: 10px;
+}
+
+a {
+  color: Navy;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: crimson;
+}
+
+/* a:visited {
+  color: pink;
+} */
+
+a:active {
+  color: brown;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  /* color: red;
+  background-color: navy; */
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin-left: 15px;
+}
+
+.table {
+  position: relative;
+  left: -30px;
+}
+
+.table th {
+  padding-left: 30px;
+}
+
+.table thead {
+  text-align: left;
+}
+
+.table td {
+  padding-left: 30px;
+}
+
+/* .table td:hover {
+  background-color: #eeefff;
+}  */
+
+/* .table tr:nth-child(even) {
+  background-color: #eee;
+} */
+
+/* .table tr:nth-child(odd) {
+  background-color: #eee;
+} */
+
+/* .table td:nth-child(2), .table td:nth-child(3) {
+  background: #fffeee;
+} */
+
+
+/* .navbar {
+  background-color: lightblue;
+} */
+
+.info {
+  display: flex;
+}
+
+.info2 {
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .table thead tbody {
+    display: block;
+  }
+
+  .card {
+    margin: 20px 20px;
+  }
+}
